@@ -27,10 +27,11 @@ body {
 }
 
 .container p {
-    width: 400px;
+    width: 900px;
+    background-color: #eeee;
     margin: 100px 0px;
-    border: solid;
-    padding: 20px;
+    border: solid 2px;
+    padding: 30px;
     text-align: center;
 }
 
@@ -48,6 +49,34 @@ p {
     font-size: 25px;
     text-align: blocks;
     margin: 20px;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.imagelist {
+    margin: 10px;
+    width: 25%;
+    height: 300px;
+}
+
+.text {
+    font-size: 25px;
+    display: inline-block;
+    position: right;
+}
+
+.bordering {
+    border: solid black 2px;
+    text-align: center;
+
+}
+
+.bordering, p {
+    text-align: center;
 }
 
 /*
